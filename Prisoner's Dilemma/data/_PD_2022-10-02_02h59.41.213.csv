@@ -1,0 +1,5 @@
+﻿practice_loop.thisRepN,practice_loop.thisTrialN,practice_loop.thisN,practice_loop.thisIndex,tl_p_intro,tl_o_intro,bl_p_intro,bl_o_intro,tr_p_intro,tr_o_intro,br_p_intro,br_o_intro,order,start_mouse.x,start_mouse.y,start_mouse.leftButton,start_mouse.midButton,start_mouse.rightButton,start_mouse.clicked_name,name_text.started,type_name.started,type_name.text,name_mouse.x,name_mouse.y,name_mouse.leftButton,name_mouse.midButton,name_mouse.rightButton,name_mouse.clicked_name,selected_avatar,avatar_mouse.x,avatar_mouse.y,avatar_mouse.leftButton,avatar_mouse.midButton,avatar_mouse.rightButton,ID,date,expName,psychopyVersion,frameRate,
+,,,,,,,,,,,,C,-0.0625,-0.812962962962963,1,0,0,start_cont,,,,,,,,,,,,,,,,,2022-10-02_02h59.41.213,PD,2022.2.4,60.29083092083012,
+,,,,,,,,,,,,,,,,,,,33.08491099998355,33.08491099998355,Felix,-0.07083333333333333,-0.812962962962963,1,0,0,name_cont,,,,,,,,2022-10-02_02h59.41.213,PD,2022.2.4,60.29083092083012,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,avatar5,-0.05520833333333333,-0.5611111111111111,1,0,0,,2022-10-02_02h59.41.213,PD,2022.2.4,60.29083092083012,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-02_02h59.41.213,PD,2022.2.4,60.29083092083012,

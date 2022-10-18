@@ -1,0 +1,3 @@
+﻿order,start_mouse.x,start_mouse.y,start_mouse.leftButton,start_mouse.midButton,start_mouse.rightButton,start_mouse.clicked_name,name_text.started,type_name.started,type_name.text,name_mouse.x,name_mouse.y,name_mouse.leftButton,name_mouse.midButton,name_mouse.rightButton,name_mouse.clicked_name,ID,date,expName,psychopyVersion,frameRate,
+D,-0.06145833333333333,-0.8277777777777777,1,0,0,start_cont,,,,,,,,,,,2022-10-15_18h33.53.508,PD,2022.2.4,60.09929604339939,
+,,,,,,,100.58849660004489,100.58849660004489,,-0.06145833333333333,-0.8277777777777777,1,0,0,name_cont,,2022-10-15_18h33.53.508,PD,2022.2.4,60.09929604339939,

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Октябрь 04, 2022, at 00:05
+    on Октябрь 15, 2022, at 18:42
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -53,7 +53,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['ID'], expName, expIn
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath="D:\\Macbook\\PsychoPy\\Prisoner's Dilemma\\PD_lastrun.py",
+    originPath="C:\\Users\\nilsk\\RP\\Prisoner's Dilemma\\PD_lastrun.py",
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -96,7 +96,7 @@ defaultKeyboard = keyboard.Keyboard(backend='iohub')
 
 # --- Initialize components for Routine "start" ---
 start_text = visual.TextStim(win=win, name='start_text',
-    text='In this task you will be asked to win points by either working with (cooperating) or working against (defecting) another player\n\nTry to gain as many point as possible and win the game\n\nWe will begin by asking you to enter some details about yourself!',
+    text='In this task you will be asked to win points by either cooperating with or defecting against another player\n\nTry to gain as many point as possible and win the game\n\nWe will begin by asking you to enter some details about yourself!',
     font='Arial',
     pos=(0, 0), height=0.1, wrapWidth=1.5, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
@@ -217,7 +217,7 @@ avatar_mouse.mouseClock = core.Clock()
 
 # --- Initialize components for Routine "intro" ---
 intro_text = visual.TextStim(win=win, name='intro_text',
-    text="In this task you will win points by either choosing to cooperate with or defect against another player.\n\nBoth you and the other player will make your choice and then your decisions will be revealed.\n\nYou will receive points based on both of your choices.\n\nYou will play against two different other player's in seperate games.",
+    text='You will win points by either choosing to cooperate with or defect against another player\n\nBoth you and the other player will make your choice and then your decisions will be revealed\n\nYou will receive points based on both of your choices\n\nYou will play against two different players in separate rounds',
     font='Arial',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 

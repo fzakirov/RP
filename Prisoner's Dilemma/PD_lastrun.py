@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Октябрь 15, 2022, at 18:42
+    on Ноябрь 07, 2022, at 19:22
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -67,12 +67,12 @@ frameTolerance = 0.001  # how close to onset before 'same' frame
 
 # --- Setup the Window ---
 win = visual.Window(
-    size=[1280, 720], fullscr=True, screen=0, 
+    size=[1280, 720], fullscr=False, screen=0, 
     winType='pyglet', allowStencil=False,
     monitor='testMonitor', color=[-1, -1, -1], colorSpace='rgb',
     blendMode='avg', useFBO=True, 
     units='norm')
-win.mouseVisible = False
+win.mouseVisible = True
 # store frame rate of monitor if we can measure it
 expInfo['frameRate'] = win.getActualFrameRate()
 if expInfo['frameRate'] != None:
@@ -1787,7 +1787,7 @@ o_total_text = visual.TextStim(win=win, name='o_total_text',
     text='',
     font='Arial',
     pos=[0,0], height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
+    color='yellow', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-2.0);
 participant_avatar_scoreboard = visual.ImageStim(
@@ -1809,7 +1809,7 @@ o_name_text = visual.TextStim(win=win, name='o_name_text',
     text='',
     font='Arial',
     pos=[0,0], height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
+    color='yellow', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-5.0);
 other_avatar_scoreboard = visual.ImageStim(
@@ -5873,7 +5873,7 @@ for thisInitial_choice_loop in initial_choice_loop:
         # Run 'Begin Routine' code from feedback_code
         #Changing position of stimuli based on player's position
         if choice_dd[0]=='Y':
-            core.wait(5)
+            core.wait(15)
         
         if participant_points_total > other_points_total or participant_points_total == other_points_total:
             p_av = (-0.3,-0.45)
@@ -6303,7 +6303,7 @@ for thisInitial_choice_loop in initial_choice_loop:
             total_point_header.setAutoDraw(True)
         
         # *scoreboard_cont_text* updates
-        if scoreboard_cont_text.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        if scoreboard_cont_text.status == NOT_STARTED and tThisFlip >= 4-frameTolerance:
             # keep track of start time/frame for later
             scoreboard_cont_text.frameNStart = frameN  # exact frame index
             scoreboard_cont_text.tStart = t  # local t and not account for scr refresh
@@ -6313,7 +6313,7 @@ for thisInitial_choice_loop in initial_choice_loop:
             thisExp.timestampOnFlip(win, 'scoreboard_cont_text.started')
             scoreboard_cont_text.setAutoDraw(True)
         # *scoreabord_mouse* updates
-        if scoreabord_mouse.status == NOT_STARTED and t >= 0.0-frameTolerance:
+        if scoreabord_mouse.status == NOT_STARTED and t >= 4-frameTolerance:
             # keep track of start time/frame for later
             scoreabord_mouse.frameNStart = frameN  # exact frame index
             scoreabord_mouse.tStart = t  # local t and not account for scr refresh
